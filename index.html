@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Pappas - Portfolio</title>
+    
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Apply Inter font and smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f8fa; /* A very light gray background */
+        }
+
+        /* The modern text highlight style */
+        .highlight {
+            background-color: #1a1a1a; /* Modern black */
+            color: white;
+            padding: 0.25rem 0.75rem;
+            line-height: 1.5; /* Adds spacing for multi-line highlights */
+            border-radius: 2px;
+        }
+        
+        /* Blue card style for sections */
+        .blue-section {
+            background: linear-gradient(to right, #60A5FA, #3B82F6);
+            color: white;
+            border-radius: 1.5rem; /* Rounded corners for a card effect */
+            padding: 4rem 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Main Content Container -->
+    <div class="container mx-auto px-6 py-12">
+        
+        <!-- Hero Section -->
+        <div class="text-left py-16">
+            <div class="space-y-4">
+                <h1 class="text-5xl md:text-6xl font-black">
+                    <span class="highlight">Nicholas Pappas</span>
+                </h1>
+                <p class="text-xl md:text-2xl font-medium">
+                    <span class="highlight">Software Engineer & Innovator.</span>
+                </p>
+                <p class="text-gray-600 max-w-md pt-4">
+                    A passionate developer focused on building elegant solutions to complex problems. Currently exploring opportunities in backend development, cloud infrastructure, and machine learning.
+                </p>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="mt-8 flex flex-wrap items-center gap-4">
+                <a href="#projects" class="bg-gradient-to-r from-blue-400 to-blue-500 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-transform">
+                    View My Work
+                </a>
+                <a href="https://www.linkedin.com/in/nickofficial/" target="_blank" rel="noopener noreferrer" class="bg-gray-800 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Projects Section -->
+        <div id="projects" class="blue-section">
+             <h2 class="text-4xl font-black mb-8 text-center">Projects</h2>
+             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-gray-800">
+                    <h3 class="font-bold text-2xl mb-2">ServiceNow Job Analyzer</h3>
+                    <p class="text-gray-600">A web-based tool that analyzes job descriptions from ServiceNow, providing insights into key skills and qualifications.</p>
+                    <a href="https://nixpacse.github.io/servicenow-job-analyzer/" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">View Project &rarr;</a>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-gray-800">
+                    <h3 class="font-bold text-2xl mb-2">Investment Visualizer</h3>
+                    <p class="text-gray-600">An interactive dashboard that visualizes stock market data and portfolio performance using various charting libraries.</p>
+                    <a href="#" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">View Project &rarr;</a>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-gray-800">
+                    <h3 class="font-bold text-2xl mb-2">Tic-Tac-Toe AI Opponent</h3>
+                    <p class="text-gray-600">A classic Tic-Tac-Toe game featuring an unbeatable AI opponent built with the Minimax algorithm.</p>
+                    <a href="#" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">View Project &rarr;</a>
+                </div>
+             </div>
+        </div>
+
+        <!-- About Me Section -->
+        <div id="about" class="py-16">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-2 text-blue-500">About Me</h2>
+                <div class="inline-block w-20 h-1 bg-blue-500 rounded mb-6"></div>
+                <p class="text-lg text-gray-600">
+                    I'm Nicholas Pappas, a Computer Science and Engineering student at The Ohio State University with a passion for artificial intelligence and enterprise software solutions. Through my internship at KeyBank, I gained valuable hands-on experience with the ServiceNow platform, working on enterprise-level implementations and process automation. I'm fascinated by the transformative potential of AI and am dedicated to leveraging these technologies to solve complex business challenges and create meaningful impact in the world. My expertise spans AI development, ServiceNow platform administration, and creating innovative solutions that bridge cutting-edge technology with real-world enterprise needs.
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="blue-section">
+            <div class="container mx-auto text-center text-white">
+                <div class="flex justify-center space-x-4 mb-8">
+                    <a href="https://www.linkedin.com/in/nickofficial/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white/20 hover:bg-white/30 rounded-full px-6 py-2 transition-colors font-semibold">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        LinkedIn
+                    </a>
+                </div>
+                <p class="text-sm opacity-80">
+                    &copy; 2025 Nicholas Pappas &bull; pappas.294@osu.edu &bull; Building the future, one line of code at a time.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
