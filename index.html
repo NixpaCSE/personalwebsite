@@ -49,34 +49,36 @@
     <div class="container mx-auto px-6 py-12">
         
         <!-- Hero Section -->
-        <div class="grid md:grid-cols-2 gap-12 items-center py-16">
-            <!-- Left Column: Text Content -->
-            <div class="text-left">
-                <div class="space-y-4">
-                    <h1 class="text-5xl font-black whitespace-nowrap">
-                        <span class="highlight">Nicholas Pappas</span>
-                    </h1>
-                    <p class="text-xl md:text-2xl font-medium whitespace-nowrap">
-                        <span class="highlight">Software Engineer & Innovator.</span>
-                    </p>
-                    <p class="text-gray-600 max-w-md pt-4">
-                        A passionate developer focused on building elegant solutions to complex problems. Currently exploring opportunities in AI and machine learning, enterprise software, ServiceNow, and front-end development.
-                    </p>
+        <div class="max-w-6xl mx-auto"> <!-- This wrapper controls the max width of the hero section -->
+            <div class="grid md:grid-cols-2 gap-12 items-center py-16">
+                <!-- Left Column: Text Content -->
+                <div class="text-left">
+                    <div class="space-y-4">
+                        <h1 class="text-5xl font-black whitespace-nowrap">
+                            <span class="highlight">Nicholas Pappas</span>
+                        </h1>
+                        <p class="text-xl md:text-2xl font-medium whitespace-nowrap">
+                            <span class="highlight">Software Engineer & Innovator.</span>
+                        </p>
+                        <p class="text-gray-600 max-w-md pt-4">
+                            A passionate developer focused on building elegant solutions to complex problems. Currently exploring opportunities in AI and machine learning, enterprise software, ServiceNow, and front-end development.
+                        </p>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="mt-8 flex flex-wrap items-center gap-4">
+                        <a href="#projects" class="bg-gradient-to-r from-blue-400 to-blue-500 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-transform">
+                            View My Work
+                        </a>
+                        <a href="https://www.linkedin.com/in/nickofficial/" target="_blank" rel="noopener noreferrer" class="bg-gray-800 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                    </div>
                 </div>
-                
-                <!-- Action Buttons -->
-                <div class="mt-8 flex flex-wrap items-center gap-4">
-                    <a href="#projects" class="bg-gradient-to-r from-blue-400 to-blue-500 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-transform">
-                        View My Work
-                    </a>
-                    <a href="https://www.linkedin.com/in/nickofficial/" target="_blank" rel="noopener noreferrer" class="bg-gray-800 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                    </a>
+                <!-- Right Column: Image -->
+                <div class="flex justify-center">
+                    <img src="profile.jpg" alt="Nicholas Pappas" class="w-64 h-64 rounded-full object-cover shadow-2xl ring-4 ring-white">
                 </div>
-            </div>
-            <!-- Right Column: Image -->
-            <div class="flex justify-center">
-                <img src="profile.jpg" alt="Nicholas Pappas" class="w-64 h-64 rounded-full object-cover shadow-2xl ring-4 ring-white">
             </div>
         </div>
         
@@ -119,9 +121,9 @@
                 <div class="grid md:grid-cols-2 gap-8 text-left">
                     <!-- General Project Card 1 -->
                     <div class="bg-white p-6 rounded-lg shadow-lg text-gray-800">
-                        <h3 class="font-bold text-2xl mb-2">Investment Calculator</h3>
+                        <h3 class="font-bold text-2xl mb-2">Investment Visualizer</h3>
                         <p class="text-gray-600">An interactive dashboard that visualizes compound interest calculations to encourage investing and wealth building.</p>
-                        <a href="https://nixpacse.github.io/investmentcalculator/" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">View Project &rarr;</a>
+                        <a href="https://nixpacse.github.io/investmentvisualizer/" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">View Project &rarr;</a>
                     </div>
                     <!-- General Project Card 2 -->
                     <div class="bg-white p-6 rounded-lg shadow-lg text-gray-800">
@@ -152,6 +154,26 @@
                 <p class="text-lg text-gray-600">
                     I'm Nicholas Pappas, a Computer Science and Engineering student at The Ohio State University with a passion for artificial intelligence and enterprise software solutions. Through my experience as a ServiceNow Developer Intern at KeyBank, I gained valuable hands-on experience with the ServiceNow platform, working on enterprise-level implementations and process automation. I'm fascinated by the transformative potential of AI and am dedicated to leveraging these technologies to solve complex business challenges. My expertise spans AI development, ServiceNow platform administration, front-end/UI development, and creating innovative solutions that bridge cutting-edge technology with real-world enterprise needs.
                 </p>
+            </div>
+        </div>
+
+        <!-- Experience Highlights Section -->
+        <div id="experiences" class="py-16">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-2 text-blue-500">Experience Highlights</h2>
+                <div class="inline-block w-20 h-1 bg-blue-500 rounded mb-6"></div>
+                <div class="grid md:grid-cols-2 gap-8 items-start text-left">
+                    <!-- Experience 1: ServiceNow -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="servicenow-hq.jpg" alt="Visiting ServiceNow HQ" class="rounded-md mb-4 w-full h-auto object-cover">
+                        <p class="text-gray-600 font-semibold">Visiting ServiceNow HQ after my internship as a ServiceNow Developer at KeyBank.</p>
+                    </div>
+                    <!-- Experience 2: Harvard -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="harvard-svmp.jpg" alt="Attending Harvard Business School SVMP" class="rounded-md mb-4 w-full h-auto object-cover">
+                        <p class="text-gray-600 font-semibold">Attending the Summer Venture in Management Program (SVMP) at Harvard Business School.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
